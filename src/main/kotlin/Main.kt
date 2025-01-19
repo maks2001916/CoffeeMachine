@@ -1,5 +1,6 @@
 package org.example
 
-fun main() {
-    println("Hello World!")
+suspend fun main() {
+    val coffee = Coffee.Americano(Sugar.GR_0, "0")
+    coffee.selectedMenu()
 }
